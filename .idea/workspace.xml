@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0bce6e-23da-4e5a-88a8-a5bdfc03a4dc" name="Changes" comment="" />
+    <list default="true" id="2c0bce6e-23da-4e5a-88a8-a5bdfc03a4dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +20,65 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0003100165959093" />
+      <entry key="S2" value="1.1563275480731054" />
+      <entry key="S5" value="1.7692497519452481" />
+      <entry key="S10" value="2.548386566893565" />
+      <entry key="S30" value="5.104856508243098" />
+      <entry key="S60" value="8.220549247073212" />
+      <entry key="M2" value="11.617979652727735" />
+      <entry key="M5" value="14.930691128380039" />
+      <entry key="M10" value="16.36053565686356" />
+      <entry key="M15" value="16.882075654566936" />
+      <entry key="M30" value="17.428118916599686" />
+      <entry key="H1" value="17.71074325385173" />
+      <entry key="H2" value="17.854531488622772" />
+      <entry key="H4" value="17.927054306081295" />
+      <entry key="D1" value="17.987812897953372" />
+      <entry key="W1" value="17.99825826173606" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="4.899759362974187E-157" />
+      <entry key="MS500" value="5.470599863381488E-32" />
+      <entry key="S2" value="1.5293565152442807E-8" />
+      <entry key="S5" value="7.478310532687419E-4" />
+      <entry key="S10" value="0.0273464998357878" />
+      <entry key="S30" value="0.30127788172407294" />
+      <entry key="S60" value="0.5488878589694555" />
+      <entry key="M2" value="0.7408696639554461" />
+      <entry key="M5" value="0.8869450717161703" />
+      <entry key="M10" value="0.9417776126645666" />
+      <entry key="M15" value="0.960798334661911" />
+      <entry key="M30" value="0.9802032109016532" />
+      <entry key="H1" value="0.9900521253457584" />
+      <entry key="H2" value="0.995013630733649" />
+      <entry key="H4" value="0.9975036996090033" />
+      <entry key="D1" value="0.9995835165293642" />
+      <entry key="W1" value="0.9999404917386918" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3523089219885472E-8" />
+      <entry key="MS500" value="0.02668194678858437" />
+      <entry key="S2" value="0.4320399489703249" />
+      <entry key="S5" value="1.1307588864281533" />
+      <entry key="S10" value="2.070953781895413" />
+      <entry key="S30" value="5.142581346250289" />
+      <entry key="S60" value="8.608228687609275" />
+      <entry key="M2" value="12.265173600807284" />
+      <entry key="M5" value="15.77541635497399" />
+      <entry key="M10" value="17.280200216634114" />
+      <entry key="M15" value="17.82788925292499" />
+      <entry key="M30" value="18.400702974071237" />
+      <entry key="H1" value="18.696953037162558" />
+      <entry key="H2" value="18.84761561881479" />
+      <entry key="H4" value="18.923591155469932" />
+      <entry key="D1" value="18.987234979614644" />
+      <entry key="W1" value="18.998175684151462" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4,
@@ -22,13 +92,84 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,5 +189,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
