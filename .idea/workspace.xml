@@ -4,80 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0bce6e-23da-4e5a-88a8-a5bdfc03a4dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="2c0bce6e-23da-4e5a-88a8-a5bdfc03a4dc" name="Changes" comment="Add structure initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pessoas.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/pessoas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pessoa_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/pessoa_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/storage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mtwnicolai"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mtwnicolai/crud-pessoas-python.git",
+    "accountId": "6b2fd848-99b0-4fa2-8c1e-591f451a05bb"
+  }
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0003100165959093" />
-      <entry key="S2" value="1.1563275480731054" />
-      <entry key="S5" value="1.7692497519452481" />
-      <entry key="S10" value="2.548386566893565" />
-      <entry key="S30" value="5.104856508243098" />
-      <entry key="S60" value="8.220549247073212" />
-      <entry key="M2" value="11.617979652727735" />
-      <entry key="M5" value="14.930691128380039" />
-      <entry key="M10" value="16.36053565686356" />
-      <entry key="M15" value="16.882075654566936" />
-      <entry key="M30" value="17.428118916599686" />
-      <entry key="H1" value="17.71074325385173" />
-      <entry key="H2" value="17.854531488622772" />
-      <entry key="H4" value="17.927054306081295" />
-      <entry key="D1" value="17.987812897953372" />
-      <entry key="W1" value="17.99825826173606" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000002731127495" />
+      <entry key="S5" value="1.0023688457922018" />
+      <entry key="S10" value="1.048670789928204" />
+      <entry key="S30" value="1.3653925705930374" />
+      <entry key="S60" value="1.6918907978497661" />
+      <entry key="M2" value="4.003227337763105" />
+      <entry key="M5" value="22.39356812372626" />
+      <entry key="M10" value="51.97811253557703" />
+      <entry key="M15" value="72.8318741345359" />
+      <entry key="M30" value="107.34861538245558" />
+      <entry key="H1" value="133.88613649905963" />
+      <entry key="H2" value="150.81339965182065" />
+      <entry key="H4" value="160.45147254530713" />
+      <entry key="D1" value="169.17408892026884" />
+      <entry key="W1" value="170.737430581495" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="4.899759362974187E-157" />
-      <entry key="MS500" value="5.470599863381488E-32" />
-      <entry key="S2" value="1.5293565152442807E-8" />
-      <entry key="S5" value="7.478310532687419E-4" />
-      <entry key="S10" value="0.0273464998357878" />
-      <entry key="S30" value="0.30127788172407294" />
-      <entry key="S60" value="0.5488878589694555" />
-      <entry key="M2" value="0.7408696639554461" />
-      <entry key="M5" value="0.8869450717161703" />
-      <entry key="M10" value="0.9417776126645666" />
-      <entry key="M15" value="0.960798334661911" />
-      <entry key="M30" value="0.9802032109016532" />
-      <entry key="H1" value="0.9900521253457584" />
-      <entry key="H2" value="0.995013630733649" />
-      <entry key="H4" value="0.9975036996090033" />
-      <entry key="D1" value="0.9995835165293642" />
-      <entry key="W1" value="0.9999404917386918" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.6236427685500735E-108" />
+      <entry key="S5" value="7.659425442022253E-44" />
+      <entry key="S10" value="2.767566700555246E-22" />
+      <entry key="S30" value="6.516774582222472E-8" />
+      <entry key="S60" value="2.5528000087808795E-4" />
+      <entry key="M2" value="0.016013178133604377" />
+      <entry key="M5" value="0.23518999015429737" />
+      <entry key="M10" value="0.925033645874833" />
+      <entry key="M15" value="1.6813177814479154" />
+      <entry key="M30" value="3.3036126800796977" />
+      <entry key="H1" value="4.7646790740917915" />
+      <entry key="H2" value="5.761991417371418" />
+      <entry key="H4" value="6.347284622193497" />
+      <entry key="D1" value="6.8861859440774476" />
+      <entry key="W1" value="6.983612910968539" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3523089219885472E-8" />
-      <entry key="MS500" value="0.02668194678858437" />
-      <entry key="S2" value="0.4320399489703249" />
-      <entry key="S5" value="1.1307588864281533" />
-      <entry key="S10" value="2.070953781895413" />
-      <entry key="S30" value="5.142581346250289" />
-      <entry key="S60" value="8.608228687609275" />
-      <entry key="M2" value="12.265173600807284" />
-      <entry key="M5" value="15.77541635497399" />
-      <entry key="M10" value="17.280200216634114" />
-      <entry key="M15" value="17.82788925292499" />
-      <entry key="M30" value="18.400702974071237" />
-      <entry key="H1" value="18.696953037162558" />
-      <entry key="H2" value="18.84761561881479" />
-      <entry key="H4" value="18.923591155469932" />
-      <entry key="D1" value="18.987234979614644" />
-      <entry key="W1" value="18.998175684151462" />
+      <entry key="MS100" value="4.938204755045546E-28" />
+      <entry key="MS500" value="3.4571149378484113E-6" />
+      <entry key="S2" value="0.043120234636228126" />
+      <entry key="S5" value="0.28669941234219615" />
+      <entry key="S10" value="0.5816039259288881" />
+      <entry key="S30" value="1.175498834886533" />
+      <entry key="S60" value="1.5914753081274584" />
+      <entry key="M2" value="3.9624852706983287" />
+      <entry key="M5" value="22.58519363543415" />
+      <entry key="M10" value="52.860157963664925" />
+      <entry key="M15" value="74.47294786386281" />
+      <entry key="M30" value="110.6214968044038" />
+      <entry key="H1" value="138.6310687111062" />
+      <entry key="H2" value="156.5640711524983" />
+      <entry key="H4" value="166.79267850254652" />
+      <entry key="D1" value="176.05919796798193" />
+      <entry key="W1" value="177.72088800856633" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -85,6 +101,9 @@
   "fromUser": false
 }]]></component>
   <component name="ProjectId" id="3LR19OHPPngbVyKu36i6GS8Y5vL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,13 +112,17 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
+    "Python.pessoa_service.executor": "Run",
+    "Python.storage.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
@@ -185,6 +208,15 @@
       <option name="presentableId" value="Default" />
       <updated>1793401917424</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add structure initial">
+      <option name="closed" value="true" />
+      <created>1793403210370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1793403210371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,5 +232,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add structure initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add structure initial" />
   </component>
 </project>
