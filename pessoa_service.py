@@ -18,18 +18,31 @@ def criarPessoa(nome, idade, email):  # Define a função
     salvar(pessoas)  # Salva no arquivo certo
     return pessoas
 
-def deletarPessoa(id):
+def atualizarPessoa(idAlvo, nome, idade, email):
     pessoas = carregar()
-    tamanhoAntes = len(pessoas)
 
-    pessoas = [p for p in pessoas if p["id"] != id]
+    for p in pessoas:
+        if p["id"] == idAlvo:  # Procura o id alvo
+            # Atualiza cada campo
+            p["nome"] = nome
+            p["idade"] = idade
+            p["email"] = email
+            salvar(pessoas) # Grava na lista
+            return True
+
+    return False
+
+def deletarPessoa(id):  # Recebe o id
+    pessoas = carregar() # Carrega o arquivo
+    tamanhoAntes = len(pessoas)  # Carrega a quantidade
+
+    pessoas = [p for p in pessoas if p["id"] != id]  # Cria uma lista nova com todo mundo, menos quem tem o id procurado
 
     if len(pessoas) == tamanhoAntes:
-        return False
+        return False  # Avisa que o id não existia
 
-    salvar(pessoas)
+    salvar(pessoas)  # Só grava se removeu alguém
     return True
 
 if __name__ == "__main__":
-
     print(listarPessoa())
