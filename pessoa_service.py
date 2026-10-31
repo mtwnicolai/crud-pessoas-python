@@ -29,14 +29,22 @@ def atualizarPessoa(idAlvo, nome, idade, email):
             p["email"] = email
             salvar(pessoas) # Grava na lista
             return True
-
     return False
 
-def deletarPessoa(id):  # Recebe o id
+def buscarPessoa(idAlvo):
+    pessoas = carregar()
+
+    for p in pessoas:
+        if p["id"] == idAlvo:
+            return p
+
+    return None
+
+def deletarPessoa(idAvol):  # Recebe o id
     pessoas = carregar() # Carrega o arquivo
     tamanhoAntes = len(pessoas)  # Carrega a quantidade
 
-    pessoas = [p for p in pessoas if p["id"] != id]  # Cria uma lista nova com todo mundo, menos quem tem o id procurado
+    pessoas = [p for p in pessoas if p["id"] != idAvol]  # Cria uma lista nova com todo mundo, menos quem tem o id procurado
 
     if len(pessoas) == tamanhoAntes:
         return False  # Avisa que o id não existia
