@@ -18,6 +18,18 @@ def criarPessoa(nome, idade, email):  # Define a função
     salvar(pessoas)  # Salva no arquivo certo
     return pessoas
 
+def deletarPessoa(id):
+    pessoas = carregar()
+    tamanhoAntes = len(pessoas)
+
+    pessoas = [p for p in pessoas if p["id"] != id]
+
+    if len(pessoas) == tamanhoAntes:
+        return False
+
+    salvar(pessoas)
+    return True
+
 if __name__ == "__main__":
-    criarPessoa("Ana", 25, "ana@email.com")
+
     print(listarPessoa())

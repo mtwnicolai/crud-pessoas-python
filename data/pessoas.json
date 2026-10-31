@@ -1,8 +1,14 @@
 [
     {
-        "id": 1,
-        "nome": "Ana",
-        "idade": 25,
-        "email": "ana@email.com"
+        "id": 2,
+        "nome": "Marcos",
+        "idade": 20,
+        "email": "marcos@email.com"
+    },
+    {
+        "id": 3,
+        "nome": "Bruno",
+        "idade": 30,
+        "email": "bruno@email.com"
     }
 ]
